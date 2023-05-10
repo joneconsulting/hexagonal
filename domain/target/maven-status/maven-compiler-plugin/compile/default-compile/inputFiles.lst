@@ -1,0 +1,4 @@
+/Users/dowonlee_1/Desktop/git/ms-library/domain/src/main/java/org/example/service/BookServiceImpl.java
+/Users/dowonlee_1/Desktop/git/ms-library/domain/src/main/java/org/example/data/BookDto.java
+/Users/dowonlee_1/Desktop/git/ms-library/domain/src/main/java/org/example/ports/spi/BookPersistencePort.java
+/Users/dowonlee_1/Desktop/git/ms-library/domain/src/main/java/org/example/ports/api/BookServicePort.java
