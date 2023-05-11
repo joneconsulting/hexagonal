@@ -13,10 +13,10 @@ public interface BookMapper {
 
     BookMapper INSTANCE = Mappers.getMapper(BookMapper.class);
 
-    //@Mapping(source = "id", target = "id")
-    //@Mapping(source = "title", target = "title")
-    //@Mapping(source = "description", target = "description")
-    //@Mapping(source = "price", target = "price")
+    @Mapping(source = "id", target = "id")
+    @Mapping(source = "title", target = "title")
+    @Mapping(source = "description", target = "description")
+    @Mapping(source = "price", target = "price")
     BookDto bookToBookDto(Book book);
 
     Book bookDtoToBook(BookDto bookDto);
